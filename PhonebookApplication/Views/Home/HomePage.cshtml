@@ -1,0 +1,21 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>HomePage</title>
+</head>
+<body>
+    <div>
+        <h1> Welcome to Phonebook!!!</h1>
+    </div>
+    <div>
+        <input type="button" value="Add New" onclick="@("window.location.href='" + @Url.Action("NewUser", "Home") + "'");" />
+    </div>
+</body>
+</html>

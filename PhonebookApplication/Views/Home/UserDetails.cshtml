@@ -1,0 +1,55 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>UserDetails</title>
+</head>
+<body>
+    <div>
+        <h2>Enter the Details...</h2>
+    </div>
+    <div>
+        <form action="Save" method="post" autocomplete="off">
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td><input name="Name" type="text" /></td>
+                </tr>
+                <tr>
+                    <td>Address1</td>
+                    <td><input name="Address1" type="text" /></td>
+                </tr>
+                <tr>
+                    <td>Address2</td>
+                    <td><input name="Address2" type="text" /></td>
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td><input name="City" type="text" /></td>
+                </tr>
+                <tr>
+                    <td>PinCode</td>
+                    <td><input name="Pincode" type="text" /></td>
+                </tr>
+                <tr>
+                    <td>PhoneNumber</td>
+                    <td><input name="Phonenumber" type="text" /></td>
+                </tr>
+            </table>
+            
+                <p><input id="Submit1" type="submit" value="Save" /></p>
+            
+        </form>
+    </div>
+    @*<p>
+        @Html.Partial("_Save")
+    </p>*@
+
+</body>
+</html>
